@@ -1,0 +1,115 @@
+html {
+    /*background-color: rgb(0, 0, 0);*/
+}
+
+body {
+    margin: 0;
+    /*background-color: rgb(0, 0, 0);*/
+}
+
+.noscrolly {
+    padding: 0;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.article {
+    position: relative;
+    padding: 0;
+    max-width: 20rem;
+    margin: 0 auto;
+}
+
+.figure {
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    object-fit: cover;
+    left: 0;
+    margin: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    /*width: 375px;
+    height: 800px;*/
+    /*width: 750px;
+    height: 1600px;*/
+    /*background-color: rgb(0, 0, 0);*/
+}
+
+.step {
+    margin: 0 auto 0 auto;
+    padding: 0;
+    height: 100vh;
+    /*height: 10px;*/
+}
+
+p {
+    /*Automatische Silbentrennung*/
+    /*-moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;*/
+}
+
+.step p {
+    /*text-align: justify;*/
+    /*text-align: center;*/
+    font-size: 17px;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    font-family: 'Zen Kaku Gothic New';
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 10px 18px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#hell p {
+    /*text-align: justify;*/
+    /*text-align: center;*/
+    font-size: 17px;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    font-family: 'Zen Kaku Gothic New';
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 10px 18px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#mission h3 {
+    /*text-align: justify;*/
+    text-align: center;
+    font-size: 17px;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    font-family: 'Zen Kaku Gothic New';
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 10px 18px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#mission p {
+    /*text-align: justify;*/
+    text-align: center;
+    font-size: 14px;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    font-family: 'Zen Kaku Gothic New';
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 10px 18px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.sticky-img {
+    margin: 0 auto;
+    /*margin: 0;*/
+    max-height: 100%;
+    max-width: 100%;
+    /*object-fit: scale-down;*/
+    object-fit: cover;
+    overflow: hidden;
+}
